@@ -1,126 +1,83 @@
-<!-- Remove below in src/markdown/Header.j2.md not in README.md -->
+# Fajar Malik's CV
 
-# RenderCV Pipeline
-
-Are you ready to revolutionize the way you manage and craft your CVs and resumes?
-
-Picture this:
-
-1.  You simply update your `src/John_Doe_CV.yaml` input file and push the changes.
-2.  Then, a pipeline generates a new PDF and Markdown from it and uploads it to the repository.
-3.  When you are done with your work, you can create a new release on GitHub, tagging your CV with something like `v2024.04`. The pipeline will automatically add the PDF and its $\LaTeX$ source as assets to the release.
-4.  You have successfully created your CV pipeline, and all the history is in safe hands and reproducible.
-
-**How to start?**
-
-1.  [Click here](https://github.com/new?template_name=rendercv-pipeline&template_owner=sinaatalay) to create your CV repository based on this `rendercv-pipeline` template repository.
-2.  Edit either
-    -  the `src/John_Doe_CV.yaml` file, or
-    -  the contents of `src/markdown` or `src/classic` directories
-    
-    and push. Then, see the magic happen.
-
-**Some tips**
-
-1.  Learn more about [RenderCV](https://github.com/sinaatalay/rendercv) to understand what you can do with this tool.
-2.  Edit and preview your CV in your browser without installing anything by creating a codespace. Click the <> **Code** button, then click the **Codespaces** tab, and then click **Create codespace on main**. The environment will be ready for RenderCV usage.
-3.  Update `.vscode/launch.json` to point to your YAML file and press `F5` to run RenderCV in the browser.
-
-<!-- Remove above in src/markdown/Header.j2.md not in README.md -->
-# John Doe's CV
-
-- Phone: +90 541 999 99 99
-- Email: [youremail@yourdomain.com](mailto:youremail@yourdomain.com)
-- Location: Your Location
-- Website: [yourwebsite.com](https://yourwebsite.com/)
-- LinkedIn: [yourusername](https://linkedin.com/in/yourusername)
-- GitHub: [yourusername](https://github.com/yourusername)
+- Email: [mrfajarmalik@gmail.com](mailto:mrfajarmalik@gmail.com)
+- Location: Espoo, Finland
+- LinkedIn: [thefajarmalik](https://linkedin.com/in/thefajarmalik)
 
 
-# Welcome to RenderCV!
-
-[RenderCV](https://github.com/sinaatalay/rendercv) is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **full Markdown syntax support** and **complete control over the LaTeX code**.
-
-The boilerplate content is taken from [here](https://github.com/dnl-blkv/mcdowell-cv), where a *clean and tidy CV* pattern is proposed by **[Gayle Laakmann McDowell](https://www.gayle.com/)**.
-
-# Quick Guide
-
-- Each section title is arbitrary, and each section contains a list of entries.
-- There are 7 unique entry types: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.
-- Select a section title, pick an entry type, and start writing your section!
-- [Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.
 # Education
 
-## University of Pennsylvania, BS in Computer Science
+## Norwegian University of Science & Technology (NTNU), M.Sc. in Information Security & Cloud Computing
 
-- Sept 2000 – May 2005
-- GPA: 3.9/4.0 ([Transcript](https://example.com))
-- **Coursework:** Computer Architecture, Artificial Intelligence, Comparison of Learning Algorithms, Computational Theory
+- 2023 – 2024
+- Trondheim, Norway
+- Information security specialization track for the double degree master program.
+- **Coursework:** Advanced Ethical Hacking, Critical Infrastructure Security.
+
+## Aalto University, M.Sc. in Information Security & Cloud Computing
+
+- 2022 – 2024
+- Espoo, Finland
+- Awarded full scholarship from the European Union for the Erasmus Mundus Joint Master double-degree program (3.5% acceptance rate).
+- **Coursework:** Information Security, Cryptography
 
 # Experience
 
-## Apple, Software Engineer
+## Aalto University, Research Assistant (Thesis Worker)
 
-- June 2005 – Aug 2007
-- Cupertino, CA
-- Reduced time to render the user's buddy list by 75% by implementing a prediction algorithm
-- Implemented iChat integration with OS X Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-- Redesigned chat file format and implemented backward compatibility for search
+- Feb 2024 – Aug 2024
+- Espoo, Finland
+- Investigating and developing secure authentication protocol in cloud, as well as formal security analysis using ProVerif.
+- **Skills:** Network security, secure protocol development, automated formal verification.
 
-## Microsoft, Lead Student Ambassador
+## Aalto University, Teaching Assistant for Information Security
 
-- Sept 2003 – Apr 2005
-- Redmond, WA
-- Promoted to Lead Student Ambassador in the Fall of 2004, supervised 10-15 Student Ambassadors
-- Created and taught a computer science course, CSE 099: Software Design and Development
+- Sept 2022 – Oct 2022
+- Espoo, Finland
+- Assisted students during hands-on exercises on a wide array of cybersecurity topics.
+- **Skills:** Cyber security, SQL injection, password cracking, XSS, buffer overflow.
 
-## University of Pennsylvania, Head Teaching Assistant
+## Sinarmas Mining, IT Trainee
 
-- Oct 2001 – May 2003
-- Philadelphia, PA
-- Implemented a user interface for the VS open file switcher (ctrl-tab) and extended it to tool windows
-- Created a service to provide gradient across VS and VS add-ins, optimized its performance via caching
-- Programmer Productivity Research Center (Summers 2001, 2002)
-- Built an app to compute the similarity of all methods in a code base, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-- Created a test case generation tool that creates random XML docs from XML Schema
+- Nov 2021 – Mar 2022
+- Indonesia
+- Developed LMS web application for internal RnD.
+- **Skills:** Go, React
 
-## Microsoft, Software Engineer, Intern
+## OmahTI UGM, IT Project Manager
 
-- June 2003 – Aug 2003
-- Redmond, WA
-- Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
-
-# Publications
-
-## Magneto-Thermal Thin Shell Approximation for 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
-- Jan 2004
-- Albert Smith, ***John Doe***, Jane Derry, Harry Tom, Frodo Baggins
+- Dec 2018 – Dec 2019
+- Indonesia
+- Successfully delivered 14 projects providing software solutions for our clients. Acquired excellent acceptance rate & increased revenue. Resolved issues regarding project scopes & documentations.
+- **Skills:** Project management, communication, negotiation, requirement analysis.
 
 # Projects
 
-## Multi-User Drawing Tool
+## Windows 7 Buffer Overflow Exploit
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed an electronic classroom where multiple users can view and simultaneously draw on a "chalkboard" with each person's edits synchronized
-- Tools Used: C++, MFC
+- 2023
+- Exploited a buffer overflow vulnerability to gain Remote Code Execution on Windows 7 (course project).
+- **Technologies:** Kali Linux, Immunity Debugger, Python.
 
-## Synchronized Calendar
+## Automatic Exercise Grading System
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-- Tools Used: C#, .NET, SQL, XML
+- 2023
+- Developed an automated grading system for Cloud Software & Systems course. Fixed a security bug where a student was able to submit other student's submission.
+- **Technologies:** Docker, Python, GitLab CI/CD, Aplus LMS.
 
-## Operating System
+## Smoke Beefs (IoT-based animal growth tracking system)
 
-- 2002
-- Developed a UNIX-style OS with a scheduler, file system, text editor, and calculator
-- Tools Used: C
+- 2021
+- Developed an Android app serving as a tracking dashboard. The project won a prestigious national competition, showcasing innovation and technical excellence.
+- **Technologies:** Android Studio, Kotlin, Firebase, Raspberry Pi, Arduino, sensors.
 
-# Additional Experience and Awards
+## AHPSAW (bachelor thesis project)
 
-- Instructor (2003-2005): Taught 2 full-credit computer science courses
-- Third Prize, Senior Design Project: Awarded 3rd prize for a synchronized calendar project out of 100 entries
-# Technologies
+- 2020
+- Engineered an advanced COVID-19 risk mapping model by integrating medical, geographic, demographic, and meterological data, therefore enhancing community risk assessment capabilities.
+- **Technologies:** Android Studio, Kotlin, Firebase, Weather API.
 
-- Languages: C++, C, Java, Objective-C, C#, SQL, JavaScript
-- Software: .NET, Microsoft SQL Server, XCode, Interface Builder
+# Other
+
+- Languages: Indonesian (native), English (fluent, C1)
+- Other Interests: Mental health awareness, badminton
