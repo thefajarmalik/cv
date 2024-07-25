@@ -1,0 +1,177 @@
+cv:
+  name: Fajar Malik
+  location: Espoo, Finland
+  email: mrfajarmalik@gmail.com
+  # website: https://yourwebsite.com/
+  social_networks:
+    - network: LinkedIn
+      username: thefajarmalik
+    # - network: GitHub
+    #   username: yourusername
+  # name: John Doe
+  # location: Texas
+  # email: johndoe@gmail.com
+  # phone: +358-4827698372
+  # social_networks:
+  #   - network: LinkedIn
+  #     username: johndoe
+  #   # - network: GitHub
+  #   #   username: yourusername
+  
+  sections:
+    education:
+      - institution: Norwegian University of Science & Technology (NTNU)
+        location: Trondheim, Norway
+        area: Information Security & Cloud Computing
+        degree: M.Sc.
+        start_date: 2023
+        end_date: 2024
+        highlights:
+          - 'Information security specialization track for the double degree master program.'
+          - '**Coursework:** Advanced Ethical Hacking, Critical Infrastructure Security.'
+      - institution: Aalto University
+        location: Espoo, Finland
+        area: Information Security & Cloud Computing
+        degree: M.Sc.
+        start_date: 2022
+        end_date: 2024
+        highlights:
+          - Awarded full scholarship from the European Union for the Erasmus Mundus Joint Master double-degree program (3.5% acceptance rate).
+          - '**Coursework:** Information Security, Cryptography'
+      # - institution: Universitas Gadjah Mada
+      #   location: Indonesia
+      #   area: Computer Science
+      #   degree: B.Cs.
+      #   start_date: 2017
+      #   end_date: 2021
+      #   highlights:
+      #     - 'Graduated one semester early with cum laude honor.'
+      #     - 'Proposed a COVID-19 risk-mapping algorithm on bachelor thesis.'
+      #     - 'Worked as lecture assistant on Operating System & Database courses.'
+    experience:
+      - company: Aalto University
+        position: Research Assistant (Thesis Worker)
+        location: Espoo, Finland
+        start_date: 2024-02
+        end_date: 2024-08
+        highlights:
+          - Investigating and developing secure authentication protocol in cloud, as well as formal security analysis using ProVerif.
+          - '**Skills:** Network security, secure protocol development, automated formal verification.'
+      # - company: Aalto University
+      #   position: Research Assistant (Course Developer)
+      #   location: Espoo, Finland
+      #   start_date: 2023-05
+      #   end_date: 2023-08
+      #   highlights:
+      #     - Developed automated grading system for next edition of course Cloud Software & Systems. This course covers a wide range of cloud technologies, including Docker, Kubernetes, REST API, CI/CD pipeline, gRPC.
+      #     - '**Skills:** Docker, GitLab CI/CD, Aplus LMS.'
+      - company: Aalto University
+        position: Teaching Assistant for Information Security
+        location: Espoo, Finland
+        start_date: 2022-09
+        end_date: 2022-10
+        highlights:
+          - Assisted students during hands-on exercises on a wide array of cybersecurity topics.
+          - '**Skills:** Cyber security, SQL injection, password cracking, XSS, buffer overflow.'
+      - company: Sinarmas Mining
+        position: IT Trainee
+        location: Indonesia
+        start_date: 2021-11
+        end_date: 2022-03
+        highlights:
+          - Developed LMS web application for internal RnD.
+          - '**Skills:** Go, React'
+      # - company: Freelance
+      #   position: Android Developer
+      #   location: Indonesia
+      #   start_date: 2021-08
+      #   end_date: 2021-11
+      #   highlights:
+      #     - Developed app for client as part of IoT system, winning bronze medal on prestigious national competition.
+      #     - '**Skills:** Android development, Firebase, Google Play Store.'
+      - company: OmahTI UGM
+        position: IT Project Manager
+        location: Indonesia
+        start_date: 2018-12
+        end_date: 2019-12
+        highlights:
+          - Successfully delivered 14 projects providing software solutions for our clients. Acquired excellent acceptance rate & increased revenue. Resolved issues regarding project scopes & documentations.
+          - '**Skills:** Project management, communication, negotiation, requirement analysis.'
+
+    projects:
+      # - name: Authentication Forwarding
+      #   date: 2024
+      #   highlights:
+      #     - Ongoing thesis work, investigating user authentication forwarding in cloud environment.
+      #     - '**Technologies:** Python, Javascript, ProVerif.'
+      - name: Windows 7 Buffer Overflow Exploit
+        date: 2023
+        highlights:
+          - Exploited a buffer overflow vulnerability to gain Remote Code Execution on Windows 7 (course project).
+          - '**Technologies:** Kali Linux, Immunity Debugger, Python.'
+      - name: Automatic Exercise Grading System
+        date: 2023
+        highlights:
+          - Developed an automated grading system for Cloud Software & Systems course. Fixed a security bug where a student was able to submit other student's submission.
+          - '**Technologies:** Docker, Python, GitLab CI/CD, Aplus LMS.'
+      - name: Smoke Beefs (IoT-based animal growth tracking system)
+        date: 2021
+        highlights:
+          - Developed an Android app serving as a tracking dashboard. The project won a prestigious national competition, showcasing innovation and technical excellence.
+          - '**Technologies:** Android Studio, Kotlin, Firebase, Raspberry Pi, Arduino, sensors.'
+      - name: AHPSAW (bachelor thesis project)
+        date: 2020
+        highlights:
+          - Engineered an advanced COVID-19 risk mapping model by integrating medical, geographic, demographic, and meterological data, therefore enhancing community risk assessment capabilities.
+          - '**Technologies:** Android Studio, Kotlin, Firebase, Weather API.'
+
+    # skills_\&_interests:
+    #   - label: Programming Languages
+    #     details: Go, Python, C++, Java, Kotlin
+    #   - label: Technologies
+    #     details: Git, Docker, React, Android Studio, ProVerif
+    #   - label: Interests
+    #     details: Cybersecurity, cloud, software development, consulting
+    #   - label: Other Interests
+    #     details: Mental health awareness, badminton
+
+    other:
+      - label: Languages
+        details: Indonesian (native), English (fluent, C1)
+      - label: Other Interests
+        details: Mental health awareness, badminton
+
+design:
+  theme: classic
+  font: Source Sans 3
+  font_size: 10pt
+  page_size: a4paper
+  color: '#0077B5'
+  disable_external_link_icons: false
+  disable_page_numbering: true
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: true
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 20 pt
+  text_alignment: left-aligned
+  margins:
+    page:
+      top: 1 cm
+      bottom: 1 cm
+      left: 1 cm
+      right: 1 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 3 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 5 pt
+      bottom: 5 pt
+      horizontal_between_connections: 10 pt
