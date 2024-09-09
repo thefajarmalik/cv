@@ -28,7 +28,7 @@ cv:
         end_date: 2024
         highlights:
           - 'Information security specialization track for the double degree master program.'
-          - '**Coursework:** Wireless Network Security, Critical Infrastructure Security.'
+          - '**Coursework:** Advanced Ethical Hacking, Wireless Network Security, Critical Infrastructure Security'
       - institution: Aalto University
         location: Espoo, Finland
         area: Information Security & Cloud Computing
@@ -37,18 +37,18 @@ cv:
         end_date: 2024
         highlights:
           - Awarded full scholarship from the European Union for the Erasmus Mundus Joint Master double-degree program (3.5% acceptance rate).
-          - '**Coursework:** Cryptography, Information Security'
+          - '**Coursework:** Cryptography, Information Security, Laboratory Works in Networking and Security'
           - '**Current Grade**: 4.17/5.00'
-      - institution: Universitas Gadjah Mada
-        location: Indonesia
-        area: Computer Science
-        degree: B.Cs.
-        start_date: 2017
-        end_date: 2021
-        highlights:
-          - Graduated one semester early with cum laude honor.
-          - '**Coursework:** Cryptography and Network Security, Machine Learning, Artificial Intelligence.'
-          - '**Grade**: 3.62/4.00 (90.5%)'
+      # - institution: Universitas Gadjah Mada
+      #   location: Indonesia
+      #   area: Computer Science
+      #   degree: B.Cs.
+      #   start_date: 2017
+      #   end_date: 2021
+      #   highlights:
+      #     - Graduated one semester early with cum laude honor.
+      #     - '**Coursework:** Cryptography and Network Security, Machine Learning, Artificial Intelligence.'
+      #     - '**Grade**: 3.62/4.00 (90.5%)'
     experience:
       - company: Aalto University
         position: Research Assistant (Thesis Worker)
@@ -58,7 +58,7 @@ cv:
         highlights:
           - Designing and developing a federated authentication protocol for short-lived container environments. Conducting formal security analysis using ProVerif to verify the security of the authentication protocol. #Integrating the authentication solution into the Aplus platform.
           - '**Skills:** Network security, cloud, automated formal verification, federated authentication.'
-          - '**Tech:** Docker, Aplus LMS, Linux Scripting, JavaScript, Python, ProVerif.'
+          - '**Tech:** Docker, Linux Scripting, JavaScript, Python, ProVerif.'
       - company: Aalto University
         position: Research Assistant (Course Developer)
         location: Espoo, Finland
@@ -66,7 +66,7 @@ cv:
         end_date: 2023-08
         highlights:
           - Developed automated grading system for course Cloud Software & Systems. Fixed a security bug where a student was able to submit other student's submission.
-          - '**Tech:** Aplus LMS, GitLab CI/CD, Shell Scripting, Docker, Kubernetes.'
+          - '**Tech:** GitLab CI/CD, Shell Scripting, Docker, Kubernetes.'
       - company: Aalto University
         position: Teaching Assistant for Information Security
         location: Espoo, Finland
@@ -74,7 +74,7 @@ cv:
         end_date: 2022-10
         highlights:
           - Assisted students during hands-on exercises on a wide array of cybersecurity topics.
-          - '**Skills:** Cyber security, SQL injection, password cracking, XSS, buffer overflow.'
+          - '**Skills:** Cybersecurity, SQL injection, password cracking, XSS, buffer overflow.'
       # - company: Sinarmas Mining
       #   position: IT Trainee
       #   location: Indonesia
@@ -103,11 +103,16 @@ cv:
       #   highlights:
       #     - Automated CV rendering from YAML to PDF using RenderCV and CI/CD, reducing the time taken to modify CV for each job application.
       #     - '**Technologies:** RenderCV, GitHub Actions CI/CD, YAML.'
-      # - name: Windows 7 Buffer Overflow Exploit
-      #   date: 2023
-      #   highlights:
-      #     - Exploited a buffer overflow vulnerability to gain Remote Code Execution on Windows 7 (course project).
-      #     - '**Technologies:** Kali Linux, Immunity Debugger, Python.'
+      - name: Wireless Network Penetration
+        date: 2023
+        highlights:
+          - Captured network packets to crack password in Wi-Fi networks using WEP and WPA2-PSK (course project).
+          - '**Technologies:** Airodump-ng, Wireshark, John-the-ripper.'
+      - name: Windows 7 Buffer Overflow Exploit
+        date: 2023
+        highlights:
+          - Exploited a buffer overflow vulnerability to gain Remote Code Execution on Windows 7 (course project).
+          - '**Technologies:** Kali Linux, Immunity Debugger, Python.'
       # - name: Automatic Exercise Grading System
       #   date: 2023
       #   highlights:
@@ -116,13 +121,14 @@ cv:
       - name: Smoke Beefs (Animal Growth IoT Tracking System, Customer Project) [Google Play Store Archive](https://apkpure.com/smoke-beefs/com.thefajarmalik.smokebeefs)
         date: 2021
         highlights:
-          - Developed an Android app serving as a tracking dashboard. The project won a prestigious national research competition, showcasing innovation and technical excellence.
+          - Developed an Android app for a client, serving as a tracking dashboard. The project won a prestigious national research competition, showcasing innovation and technical excellence.
           - '**Technologies:** Android Studio, Kotlin, Firebase, Raspberry Pi, Arduino, sensors.'
-      - name: AHPSAW (bachelor thesis project) [GitHub](https://github.com/thefajarmalik/AHPSAW)
-        date: 2020
-        highlights:
-          - Engineered an advanced COVID-19 risk mapping machine learning model by integrating medical, geographic, demographic, and meterological data, therefore enhancing community risk assessment capabilities.
-          - '**Technologies:** Unsupervised Machine Learning, Android Studio, Kotlin, Firebase, Weather API.'
+      # - name: AHPSAW (bachelor thesis project) #[GitHub](https://github.com/thefajarmalik/AHPSAW)
+      #   date: 2020
+      #   highlights:
+      #     - Engineered an advanced COVID-19 risk mapping machine learning model by integrating medical, geographic, demographic, and meterological data, therefore enhancing community risk assessment capabilities.
+      #     - '**Technologies:** Unsupervised Machine Learning, Android Studio, Kotlin, Firebase, Weather API.'
+      - name: A list of my projects can be found in [my portfolio website](https://thefajarmalik.com/portfolio)
 
     skills:
       - label: Programming Languages
@@ -130,7 +136,7 @@ cv:
       - label: Technologies
         details: ProVerif, Linux Scripting, Git, Docker, React, Android Studio
       - label: Interests
-        details: Cyber security, research, software development, consulting, cloud
+        details: Cybersecurity, software development, consulting
       # - label: Other Interests
       #   details: Mental health awareness, badminton
 
