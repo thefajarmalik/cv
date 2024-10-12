@@ -54,9 +54,9 @@ cv:
         position: Research Assistant (Thesis Worker)
         location: Espoo, Finland
         start_date: 2024-02
-        # end_date: 2024-08
+        end_date: 2024-09
         highlights:
-          - Designing and developing a federated authentication protocol for short-lived container environments. Conducting formal security analysis using ProVerif to verify the security of the authentication protocol. #Integrating the authentication solution into the Aplus platform.
+          - Designed and developed an authentication protocol for short-lived container environments. Conducted formal security analysis using ProVerif to verify the security of the authentication protocol.
           - '**Skills:** Network security, cloud, automated formal verification, federated authentication.'
           - '**Tech:** Docker, Linux Scripting, JavaScript, Python, ProVerif.'
       - company: Aalto University
@@ -92,7 +92,7 @@ cv:
           - Successfully delivered 14 projects providing software solutions for our customers. Acquired excellent acceptance rate & increased revenue. Resolved issues regarding project scopes & documentations.
           - '**Skills:** Project management, communication, negotiation, requirement analysis.'
 
-    projects:
+    relevant_projects:
       # - name: Authentication Forwarding
       #   date: 2024
       #   highlights:
@@ -171,7 +171,7 @@ design:
     entry_area:
       left_and_right: 0 cm
       vertical_between: 0.2 cm
-      date_and_location_width: 3 cm
+      date_and_location_width: 3.1 cm
     highlights_area:
       top: 0.10 cm
       left: 0 cm
