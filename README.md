@@ -27,9 +27,9 @@
 
 ## Aalto University, Research Assistant (Thesis Worker)
 
-- Feb 2024 – present
+- Feb 2024 – Sept 2024
 - Espoo, Finland
-- Designing and developing a federated authentication protocol for short-lived container environments. Conducting formal security analysis using ProVerif to verify the security of the authentication protocol.
+- Designed and developed an authentication protocol for short-lived container environments. Conducted formal security analysis using ProVerif to verify the security of the authentication protocol.
 - **Skills:** Network security, cloud, automated formal verification, federated authentication.
 - **Tech:** Docker, Linux Scripting, JavaScript, Python, ProVerif.
 
@@ -54,7 +54,7 @@
 - Successfully delivered 14 projects providing software solutions for our customers. Acquired excellent acceptance rate & increased revenue. Resolved issues regarding project scopes & documentations.
 - **Skills:** Project management, communication, negotiation, requirement analysis.
 
-# Projects
+# Relevant Projects
 
 ## Wireless Network Penetration
 
