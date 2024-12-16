@@ -4,10 +4,10 @@
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
     top=1 cm, % seperation between body and page edge from the top
-    bottom=1 cm, % seperation between body and page edge from the bottom
+    bottom=0.5 cm, % seperation between body and page edge from the bottom
     left=1 cm, % seperation between body and page edge from the left
     right=1 cm, % seperation between body and page edge from the right
-    footskip=0.5 cm, % seperation between body and footer
+    footskip=0.25 cm, % seperation between body and footer
     % showframe % for debugging 
 ]{geometry} % for adjusting page geometry
 \usepackage[explicit]{titlesec} % for customizing section titles
@@ -151,7 +151,7 @@
         \LenToUnit{\paperwidth-1 cm-0 cm+0.05cm},
         \LenToUnit{\paperheight-0.5 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
-        \small\color{gray}\textit{Last updated in October 2024}\hspace{\widthof{Last updated in October 2024}}
+        \small\color{gray}\textit{Last updated in December 2024}\hspace{\widthof{Last updated in December 2024}}
     }}}%
   }%
 }%
@@ -202,29 +202,29 @@
 
         
         \begin{threecolentry}{\textbf{M.Sc.}}{
-            Trondheim, Norway
+            Espoo, Finland
 
-        2023 – 2024
+        2022 – 2024
         }
-            \textbf{Norwegian University of Science \& Technology (NTNU)}, Information Security \& Cloud Computing
+            \textbf{Aalto University}, Security \& Cloud Computing
             \begin{highlights}
-                \item Information security specialization track for the double degree master program.
-                \item \textbf{Coursework:} Advanced Ethical Hacking, Wireless Network Security, Critical Infrastructure Security
+                \item Awarded full scholarship from the European Union for the Erasmus Mundus Joint Master double-degree program (3.5\% acceptance rate).
+                \item \textbf{Coursework:} Full Stack Web Development, Cloud Software \& Systems, Information Security.
+                \item \textbf{Grade}: 4.12/5.00 (Honors)
             \end{highlights}
         \end{threecolentry}
 
         \vspace{0.2 cm}
 
         \begin{threecolentry}{\textbf{M.Sc.}}{
-            Espoo, Finland
+            Trondheim, Norway
 
-        2022 – 2024
+        2023 – 2024
         }
-            \textbf{Aalto University}, Information Security \& Cloud Computing
+            \textbf{Norwegian University of Science \& Technology (NTNU)}, Security \& Cloud Computing
             \begin{highlights}
-                \item Awarded full scholarship from the European Union for the Erasmus Mundus Joint Master double-degree program (3.5\% acceptance rate).
-                \item \textbf{Coursework:} Cryptography, Information Security, Laboratory Works in Networking and Security
-                \item \textbf{Current Grade}: 4.17/5.00
+                \item Information security specialization track for the double degree master program.
+                \item \textbf{Coursework:} Enterprise Architecture, Critical Infrastructure Security, Wireless Network Security.
             \end{highlights}
         \end{threecolentry}
 
@@ -244,9 +244,9 @@
         }
             \textbf{Aalto University}, Research Assistant (Thesis Worker)
             \begin{highlights}
-                \item Designed and developed an authentication protocol for short-lived container environments. Conducted formal security analysis using ProVerif to verify the security of the authentication protocol.
-                \item \textbf{Skills:} Network security, cloud, automated formal verification, federated authentication.
-                \item \textbf{Tech:} Docker, Linux Scripting, JavaScript, Python, ProVerif.
+                \item Designed and implemented a privacy-preserving authentication protocol for short-lived container environments. Developed a working prototype. Conducted formal security analysis to verify the security of the authentication protocol. The thesis was awarded a very good grade.
+                \item \textbf{Skills:} Network security, cloud, automated formal verification.
+                \item \textbf{Tech:} JavaScript, Python, Docker, Shell Scripting, ProVerif.
             \end{highlights}
         \end{twocolentry}
 
@@ -263,7 +263,7 @@
             \textbf{Aalto University}, Research Assistant (Course Developer)
             \begin{highlights}
                 \item Developed automated grading system for course Cloud Software \& Systems. Fixed a security bug where a student was able to submit other student's submission.
-                \item \textbf{Tech:} GitLab CI/CD, Shell Scripting, Docker, Kubernetes.
+                \item \textbf{Tech:} Python, Docker, Shell Scripting, GitLab CI/CD, Kubernetes.
             \end{highlights}
         \end{twocolentry}
 
@@ -271,16 +271,16 @@
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
-            Espoo, Finland
+            Indonesia
 
-        Sept 2022 – Oct 2022
+        Nov 2021 – Mar 2022
 
-        1 month
+        4 months
         }
-            \textbf{Aalto University}, Teaching Assistant for Information Security
+            \textbf{Sinarmas Mining}, IT Trainee
             \begin{highlights}
-                \item Assisted students during hands-on exercises on a wide array of cybersecurity topics.
-                \item \textbf{Skills:} Cybersecurity, SQL injection, password cracking, XSS, buffer overflow.
+                \item Developed LMS web application for internal RnD.
+                \item \textbf{Skills:} Go, React
             \end{highlights}
         \end{twocolentry}
 
@@ -294,9 +294,9 @@
 
         1 year 1 month
         }
-            \textbf{OmahTI UGM}, IT Project Manager / Consultant
+            \textbf{OmahTI UGM}, IT Project Manager
             \begin{highlights}
-                \item Successfully delivered 14 projects providing software solutions for our customers. Acquired excellent acceptance rate \& increased revenue. Resolved issues regarding project scopes \& documentations.
+                \item Analyzed clients' business requirements and transformed them into solution design. Successfully delivered 14 projects providing software solutions for our customers \& increased the company's revenue. Resolved issues regarding project scopes \& documentations.
                 \item \textbf{Skills:} Project management, communication, negotiation, requirement analysis.
             \end{highlights}
         \end{twocolentry}
@@ -310,38 +310,25 @@
 
         
         \begin{twocolentry}{
-            2023
-        }
-            \textbf{Wireless Network Penetration}
-            \begin{highlights}
-                \item Captured network packets to crack password in Wi-Fi networks using WEP and WPA2-PSK (course project).
-                \item \textbf{Technologies:} Airodump-ng, Wireshark, John-the-ripper.
-            \end{highlights}
-        \end{twocolentry}
-
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            2023
-        }
-            \textbf{Windows 7 Buffer Overflow Exploit}
-            \begin{highlights}
-                \item Exploited a buffer overflow vulnerability to gain Remote Code Execution on Windows 7 (course project).
-                \item \textbf{Technologies:} Kali Linux, Immunity Debugger, Python.
-            \end{highlights}
-        \end{twocolentry}
-
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
             2021
         }
             \textbf{Smoke Beefs (Animal Growth IoT Tracking System, Customer Project) \href{https://apkpure.com/smoke-beefs/com.thefajarmalik.smokebeefs}{Google Play Store Archive}}
             \begin{highlights}
-                \item Developed an Android app for a client, serving as a tracking dashboard. The project won a prestigious national research competition, showcasing innovation and technical excellence.
-                \item \textbf{Technologies:} Android Studio, Kotlin, Firebase, Raspberry Pi, Arduino, sensors.
+                \item Developed an Android app for a client, serving as a tracking dashboard. The project won a prestigious national research competition, showcasing innovation and technical excellence. The app was published in Google Play Store.
+                \item \textbf{Technologies:} Kotlin, Firebase, Raspberry Pi, Arduino, sensors.
+            \end{highlights}
+        \end{twocolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2020
+        }
+            \textbf{AHPSAW (Bachelor Thesis) \href{https://github.com/thefajarmalik/AHPSAW}{GitHub}}
+            \begin{highlights}
+                \item Engineered an advanced COVID-19 risk mapping machine learning model by integrating medical, geographic, demographic, and meterological data, therefore enhancing community risk assessment capabilities.
+                \item \textbf{Technologies:} Android Studio, Kotlin, Firebase, Weather API, Unsupervised Machine Learning.
             \end{highlights}
         \end{twocolentry}
 
@@ -349,7 +336,7 @@
         \vspace{0.2 cm}
 
         \begin{onecolentry}
-            \textbf{A list of my projects can be found in \href{https://thefajarmalik.com/portfolio}{my portfolio website}}
+            \textbf{A detailed list of my projects can be found in \href{https://thefajarmalik.com/portfolio}{my portfolio website}}
         \end{onecolentry}
 
 
@@ -361,19 +348,19 @@
 
         
         \begin{onecolentry}
-            \textbf{Programming Languages:} Python, C++, Go, Java, Kotlin, JavaScript
+            \textbf{Programming Languages:} Java, JavaScript, Kotlin, Python, Go, C++
         \end{onecolentry}
 
         \vspace{0.2 cm}
 
         \begin{onecolentry}
-            \textbf{Technologies:} ProVerif, Linux Scripting, Git, Docker, React, Android Studio
+            \textbf{Technologies:} React, Docker, Git, Android Studio, ProVerif
         \end{onecolentry}
 
         \vspace{0.2 cm}
 
         \begin{onecolentry}
-            \textbf{Interests:} Cybersecurity, software development, consulting
+            \textbf{Interests:} Cyber security, software development, AI
         \end{onecolentry}
 
 

@@ -8,20 +8,20 @@
 
 # Education
 
-## Norwegian University of Science & Technology (NTNU), M.Sc. in Information Security & Cloud Computing
-
-- 2023 – 2024
-- Trondheim, Norway
-- Information security specialization track for the double degree master program.
-- **Coursework:** Advanced Ethical Hacking, Wireless Network Security, Critical Infrastructure Security
-
-## Aalto University, M.Sc. in Information Security & Cloud Computing
+## Aalto University, M.Sc. in Security & Cloud Computing
 
 - 2022 – 2024
 - Espoo, Finland
 - Awarded full scholarship from the European Union for the Erasmus Mundus Joint Master double-degree program (3.5% acceptance rate).
-- **Coursework:** Cryptography, Information Security, Laboratory Works in Networking and Security
-- **Current Grade**: 4.17/5.00
+- **Coursework:** Full Stack Web Development, Cloud Software & Systems, Information Security.
+- **Grade**: 4.12/5.00 (Honors)
+
+## Norwegian University of Science & Technology (NTNU), M.Sc. in Security & Cloud Computing
+
+- 2023 – 2024
+- Trondheim, Norway
+- Information security specialization track for the double degree master program.
+- **Coursework:** Enterprise Architecture, Critical Infrastructure Security, Wireless Network Security.
 
 # Experience
 
@@ -29,56 +29,50 @@
 
 - Feb 2024 – Sept 2024
 - Espoo, Finland
-- Designed and developed an authentication protocol for short-lived container environments. Conducted formal security analysis using ProVerif to verify the security of the authentication protocol.
-- **Skills:** Network security, cloud, automated formal verification, federated authentication.
-- **Tech:** Docker, Linux Scripting, JavaScript, Python, ProVerif.
+- Designed and implemented a privacy-preserving authentication protocol for short-lived container environments. Developed a working prototype. Conducted formal security analysis to verify the security of the authentication protocol. The thesis was awarded a very good grade.
+- **Skills:** Network security, cloud, automated formal verification.
+- **Tech:** JavaScript, Python, Docker, Shell Scripting, ProVerif.
 
 ## Aalto University, Research Assistant (Course Developer)
 
 - May 2023 – Aug 2023
 - Espoo, Finland
 - Developed automated grading system for course Cloud Software & Systems. Fixed a security bug where a student was able to submit other student's submission.
-- **Tech:** GitLab CI/CD, Shell Scripting, Docker, Kubernetes.
+- **Tech:** Python, Docker, Shell Scripting, GitLab CI/CD, Kubernetes.
 
-## Aalto University, Teaching Assistant for Information Security
+## Sinarmas Mining, IT Trainee
 
-- Sept 2022 – Oct 2022
-- Espoo, Finland
-- Assisted students during hands-on exercises on a wide array of cybersecurity topics.
-- **Skills:** Cybersecurity, SQL injection, password cracking, XSS, buffer overflow.
+- Nov 2021 – Mar 2022
+- Indonesia
+- Developed LMS web application for internal RnD.
+- **Skills:** Go, React
 
-## OmahTI UGM, IT Project Manager / Consultant
+## OmahTI UGM, IT Project Manager
 
 - Dec 2018 – Dec 2019
 - Indonesia
-- Successfully delivered 14 projects providing software solutions for our customers. Acquired excellent acceptance rate & increased revenue. Resolved issues regarding project scopes & documentations.
+- Analyzed clients' business requirements and transformed them into solution design. Successfully delivered 14 projects providing software solutions for our customers & increased the company's revenue. Resolved issues regarding project scopes & documentations.
 - **Skills:** Project management, communication, negotiation, requirement analysis.
 
 # Relevant Projects
 
-## Wireless Network Penetration
-
-- 2023
-- Captured network packets to crack password in Wi-Fi networks using WEP and WPA2-PSK (course project).
-- **Technologies:** Airodump-ng, Wireshark, John-the-ripper.
-
-## Windows 7 Buffer Overflow Exploit
-
-- 2023
-- Exploited a buffer overflow vulnerability to gain Remote Code Execution on Windows 7 (course project).
-- **Technologies:** Kali Linux, Immunity Debugger, Python.
-
 ## Smoke Beefs (Animal Growth IoT Tracking System, Customer Project) [Google Play Store Archive](https://apkpure.com/smoke-beefs/com.thefajarmalik.smokebeefs)
 
 - 2021
-- Developed an Android app for a client, serving as a tracking dashboard. The project won a prestigious national research competition, showcasing innovation and technical excellence.
-- **Technologies:** Android Studio, Kotlin, Firebase, Raspberry Pi, Arduino, sensors.
+- Developed an Android app for a client, serving as a tracking dashboard. The project won a prestigious national research competition, showcasing innovation and technical excellence. The app was published in Google Play Store.
+- **Technologies:** Kotlin, Firebase, Raspberry Pi, Arduino, sensors.
 
-## A list of my projects can be found in [my portfolio website](https://thefajarmalik.com/portfolio)
+## AHPSAW (Bachelor Thesis) [GitHub](https://github.com/thefajarmalik/AHPSAW)
+
+- 2020
+- Engineered an advanced COVID-19 risk mapping machine learning model by integrating medical, geographic, demographic, and meterological data, therefore enhancing community risk assessment capabilities.
+- **Technologies:** Android Studio, Kotlin, Firebase, Weather API, Unsupervised Machine Learning.
+
+## A detailed list of my projects can be found in [my portfolio website](https://thefajarmalik.com/portfolio)
 
 
 # Skills
 
-- Programming Languages: Python, C++, Go, Java, Kotlin, JavaScript
-- Technologies: ProVerif, Linux Scripting, Git, Docker, React, Android Studio
-- Interests: Cybersecurity, software development, consulting
+- Programming Languages: Java, JavaScript, Kotlin, Python, Go, C++
+- Technologies: React, Docker, Git, Android Studio, ProVerif
+- Interests: Cyber security, software development, AI
