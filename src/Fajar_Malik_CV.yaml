@@ -20,25 +20,25 @@ cv:
   
   sections:
     education:
-      - institution: Norwegian University of Science & Technology (NTNU)
-        location: Trondheim, Norway
-        area: Information Security & Cloud Computing
-        degree: M.Sc.
-        start_date: 2023
-        end_date: 2024
-        highlights:
-          - 'Information security specialization track for the double degree master program.'
-          - '**Coursework:** Advanced Ethical Hacking, Wireless Network Security, Critical Infrastructure Security'
       - institution: Aalto University
         location: Espoo, Finland
-        area: Information Security & Cloud Computing
+        area: Security & Cloud Computing
         degree: M.Sc.
         start_date: 2022
         end_date: 2024
         highlights:
           - Awarded full scholarship from the European Union for the Erasmus Mundus Joint Master double-degree program (3.5% acceptance rate).
-          - '**Coursework:** Cryptography, Information Security, Laboratory Works in Networking and Security'
-          - '**Current Grade**: 4.17/5.00'
+          - '**Coursework:** Full Stack Web Development, Cloud Software & Systems, Information Security.'
+          - '**Grade**: 4.12/5.00 (Honors)'
+      - institution: Norwegian University of Science & Technology (NTNU)
+        location: Trondheim, Norway
+        area: Security & Cloud Computing
+        degree: M.Sc.
+        start_date: 2023
+        end_date: 2024
+        highlights:
+          - 'Information security specialization track for the double degree master program.'
+          - '**Coursework:** Enterprise Architecture, Critical Infrastructure Security, Wireless Network Security.'
       # - institution: Universitas Gadjah Mada
       #   location: Indonesia
       #   area: Computer Science
@@ -49,6 +49,7 @@ cv:
       #     - Graduated one semester early with cum laude honor.
       #     - '**Coursework:** Cryptography and Network Security, Machine Learning, Artificial Intelligence.'
       #     - '**Grade**: 3.62/4.00 (90.5%)'
+
     experience:
       - company: Aalto University
         position: Research Assistant (Thesis Worker)
@@ -56,9 +57,9 @@ cv:
         start_date: 2024-02
         end_date: 2024-09
         highlights:
-          - Designed and developed an authentication protocol for short-lived container environments. Conducted formal security analysis using ProVerif to verify the security of the authentication protocol.
-          - '**Skills:** Network security, cloud, automated formal verification, federated authentication.'
-          - '**Tech:** Docker, Linux Scripting, JavaScript, Python, ProVerif.'
+          - Designed and implemented a privacy-preserving authentication protocol for short-lived container environments. Developed a working prototype. Conducted formal security analysis to verify the security of the authentication protocol. The thesis was awarded a very good grade.
+          - '**Skills:** Network security, cloud, automated formal verification.'
+          - '**Tech:** JavaScript, Python, Docker, Shell Scripting, ProVerif.'
       - company: Aalto University
         position: Research Assistant (Course Developer)
         location: Espoo, Finland
@@ -66,53 +67,53 @@ cv:
         end_date: 2023-08
         highlights:
           - Developed automated grading system for course Cloud Software & Systems. Fixed a security bug where a student was able to submit other student's submission.
-          - '**Tech:** GitLab CI/CD, Shell Scripting, Docker, Kubernetes.'
-      - company: Aalto University
-        position: Teaching Assistant for Information Security
-        location: Espoo, Finland
-        start_date: 2022-09
-        end_date: 2022-10
-        highlights:
-          - Assisted students during hands-on exercises on a wide array of cybersecurity topics.
-          - '**Skills:** Cybersecurity, SQL injection, password cracking, XSS, buffer overflow.'
-      # - company: Sinarmas Mining
-      #   position: IT Trainee
-      #   location: Indonesia
-      #   start_date: 2021-11
-      #   end_date: 2022-03
+          - '**Tech:** Python, Docker, Shell Scripting, GitLab CI/CD, Kubernetes.'
+      # - company: Aalto University
+      #   position: Teaching Assistant for Information Security
+      #   location: Espoo, Finland
+      #   start_date: 2022-09
+      #   end_date: 2022-10
       #   highlights:
-      #     - Developed LMS web application for internal RnD.
-      #     - '**Skills:** Go, React'
+      #     - Assisted students during hands-on exercises on a wide array of cybersecurity topics.
+      #     - '**Skills:** Cybersecurity, SQL injection, password cracking, XSS, buffer overflow.'
+      - company: Sinarmas Mining
+        position: IT Trainee
+        location: Indonesia
+        start_date: 2021-11
+        end_date: 2022-03
+        highlights:
+          - Developed LMS web application for internal RnD.
+          - '**Skills:** Go, React'
       - company: OmahTI UGM
-        position: IT Project Manager / Consultant
+        position: IT Project Manager
         location: Indonesia
         start_date: 2018-12
         end_date: 2019-12
         highlights:
-          - Successfully delivered 14 projects providing software solutions for our customers. Acquired excellent acceptance rate & increased revenue. Resolved issues regarding project scopes & documentations.
+          - Analyzed clients' business requirements and transformed them into solution design. Successfully delivered 14 projects providing software solutions for our customers & increased the company's revenue. Resolved issues regarding project scopes & documentations.
           - '**Skills:** Project management, communication, negotiation, requirement analysis.'
 
     relevant_projects:
-      # - name: Authentication Forwarding
+      # - name: Pseudonymous Authentication Protocol
       #   date: 2024
       #   highlights:
-      #     - Ongoing thesis work, investigating user authentication forwarding in cloud environment.
-      #     - '**Technologies:** Python, Javascript, ProVerif.'
+      #     - Privacy-preserving authentication protocol for secure user access to external services in distributed service environments, addressing challenges where centralized single-sign-on (SSO) is impractical. The solution was modeled in applied pi calculus, verified with ProVerif, and demonstrated through a working prototype.
+      #     - '**Technologies:** ProVerif, Python, Docker, Shell Script, Javascript.'
       # - name: Automatic CV Rendering (this CV)
       #   date: 2024
       #   highlights:
       #     - Automated CV rendering from YAML to PDF using RenderCV and CI/CD, reducing the time taken to modify CV for each job application.
       #     - '**Technologies:** RenderCV, GitHub Actions CI/CD, YAML.'
-      - name: Wireless Network Penetration
-        date: 2023
-        highlights:
-          - Captured network packets to crack password in Wi-Fi networks using WEP and WPA2-PSK (course project).
-          - '**Technologies:** Airodump-ng, Wireshark, John-the-ripper.'
-      - name: Windows 7 Buffer Overflow Exploit
-        date: 2023
-        highlights:
-          - Exploited a buffer overflow vulnerability to gain Remote Code Execution on Windows 7 (course project).
-          - '**Technologies:** Kali Linux, Immunity Debugger, Python.'
+      # - name: Wireless Network Penetration
+      #   date: 2023
+      #   highlights:
+      #     - Captured network packets to crack password in Wi-Fi networks using WEP and WPA2-PSK (course project).
+      #     - '**Technologies:** Airodump-ng, Wireshark, John-the-ripper.'
+      # - name: Windows 7 Buffer Overflow Exploit
+      #   date: 2023
+      #   highlights:
+      #     - Exploited a buffer overflow vulnerability to gain Remote Code Execution on Windows 7 (course project).
+      #     - '**Technologies:** Kali Linux, Immunity Debugger, Python.'
       # - name: Automatic Exercise Grading System
       #   date: 2023
       #   highlights:
@@ -121,22 +122,27 @@ cv:
       - name: Smoke Beefs (Animal Growth IoT Tracking System, Customer Project) [Google Play Store Archive](https://apkpure.com/smoke-beefs/com.thefajarmalik.smokebeefs)
         date: 2021
         highlights:
-          - Developed an Android app for a client, serving as a tracking dashboard. The project won a prestigious national research competition, showcasing innovation and technical excellence.
-          - '**Technologies:** Android Studio, Kotlin, Firebase, Raspberry Pi, Arduino, sensors.'
-      # - name: AHPSAW (bachelor thesis project) #[GitHub](https://github.com/thefajarmalik/AHPSAW)
-      #   date: 2020
+          - Developed an Android app for a client, serving as a tracking dashboard. The project won a prestigious national research competition, showcasing innovation and technical excellence. The app was published in Google Play Store.
+          - '**Technologies:** Kotlin, Firebase, Raspberry Pi, Arduino, sensors.'
+      - name: AHPSAW (Bachelor Thesis) [GitHub](https://github.com/thefajarmalik/AHPSAW)
+        date: 2020
+        highlights:
+          - Engineered an advanced COVID-19 risk mapping machine learning model by integrating medical, geographic, demographic, and meterological data, therefore enhancing community risk assessment capabilities.
+          - '**Technologies:** Android Studio, Kotlin, Firebase, Weather API, Unsupervised Machine Learning.'
+      # - name: SrawungPPL (Client Project)
+      #   date: 2018
       #   highlights:
-      #     - Engineered an advanced COVID-19 risk mapping machine learning model by integrating medical, geographic, demographic, and meterological data, therefore enhancing community risk assessment capabilities.
-      #     - '**Technologies:** Unsupervised Machine Learning, Android Studio, Kotlin, Firebase, Weather API.'
-      - name: A list of my projects can be found in [my portfolio website](https://thefajarmalik.com/portfolio)
+      #     - Developed mobile forum application to connect farmers & agricultural experts.
+      #     - '**Technologies:** Kotlin, Firebase.'
+      - name: A detailed list of my projects can be found in [my portfolio website](https://thefajarmalik.com/portfolio)
 
     skills:
       - label: Programming Languages
-        details: Python, C++, Go, Java, Kotlin, JavaScript
+        details: Java, JavaScript, Kotlin, Python, Go, C++
       - label: Technologies
-        details: ProVerif, Linux Scripting, Git, Docker, React, Android Studio
+        details: React, Docker, Git, Android Studio, ProVerif
       - label: Interests
-        details: Cybersecurity, software development, consulting
+        details: Cyber security, software development, AI
       # - label: Other Interests
       #   details: Mental health awareness, badminton
 
@@ -162,7 +168,7 @@ design:
   margins:
     page:
       top: 1 cm
-      bottom: 1 cm
+      bottom: 0.5 cm
       left: 1 cm
       right: 1 cm
     section_title:
